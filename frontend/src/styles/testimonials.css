@@ -1,0 +1,148 @@
+.main-testimonials-wrapper {
+  font-family: 'Patrick Hand', cursive;
+  background: white;
+  background-position: center;
+  background-size: cover;
+  padding-top: 3rem;
+}
+
+.swiper-container {
+  width: 100%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.swiper-slide {
+  display: grid;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  background: #5180d8;
+  width: 18.75rem;
+  height: 18.75rem;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 10rem;
+  justify-self: center;
+  border-radius: 50%;
+  margin-top: 0.6rem;
+}
+
+h5 {
+  font-family: 'GFS Didot', serif;
+  font-weight: bold;
+  color: #7f95a3;
+}
+
+P {
+  color: #5a637e;
+}
+
+/* Quote */
+
+.quote-parent {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote {
+  height: 300px;
+  width: 300px;
+  background-color: #256;
+  border-radius: 50px;
+  transition: all 0.5s;
+}
+
+.quote:hover {
+  transform: scale(1.5);
+  background-color: #ebecf0;
+  background: #ebecf0;
+  box-shadow: 5px 5px 0px #cacbce, -5px -5px 0px;
+  color: black;
+  font-weight: bold;
+}
+
+.quote:hover > h1 {
+  display: none;
+}
+
+.quote:hover > .quote-content {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote h1 {
+  font-family: 'Rubik', sans-serif;
+  color: #f1faee;
+  font-weight: bold;
+  text-transform: uppercase;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.quote-content {
+  display: none;
+}
+
+/* @keyframes tipsy {
+  0 {
+    transform: translateX(-50%) translateY(-50%) rotate(0deg);
+  }
+  100% {
+    transform: translateX(-50%) translateY(-50%) rotate(360deg);
+  }
+}
+
+/* body {
+  font-family: helvetica, arial, sans-serif;
+  background-color: #2e2e31;
+} */
+
+/* h2 {
+  color: #131212;
+  text-shadow: 0 20px 25px #2e2e31, 0 40px 60px #2e2e31;
+  font-size: 80px;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: -3px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+h2:before,
+h2:after {
+  content: '';
+  padding: 0.9em 0.4em;
+  position: absolute;
+  left: 50%;
+  width: 100%;
+  top: 50%;
+  display: block;
+  border: 15px solid red;
+  transform: translateX(-50%) translateY(-50%) rotate(0deg);
+  animation: 10s infinite alternate ease-in-out tipsy;
+}
+
+h2:before {
+  border-color: #d9524a #d9524a rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+  z-index: -1;
+}
+
+h2:after {
+  border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #d9524a #d9524a;
+  box-shadow: 25px 25px 25px rgba(46, 46, 49, 0.8);
+} */
